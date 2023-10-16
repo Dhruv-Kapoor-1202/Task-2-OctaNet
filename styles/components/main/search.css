@@ -1,0 +1,38 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  /* padding: 2rem 1.25rem; */
+  padding: 1.25rem;
+  height: inherit;
+
+}
+
+.search>* {
+  flex: 1;
+}
+
+.searchInput {
+  /* background-color: blue; */
+  /* position: relative; */
+  /* padding: 1em; */
+}
+
+.search input {
+  border: none;
+  outline: none;
+  font-size: 1.1em;
+
+  border: 1px solid var(--black);
+  border-radius: 15px;
+
+  padding: 0.5em 1em;
+}
+
+.search input::placeholder {
+  /* font-size: 2em; */
+}
+
+.search label {
+  display: none;
+
+}
